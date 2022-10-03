@@ -29,7 +29,8 @@ class Main {
       // Error Prep -> Tells user to input number between 1-3 in order to have a valid output
     }
     
-    System.out.println("You need to eat breakfast before you go to work. What do you want to eat?(1.Oatmeal 2. Breakfas");
+    System.out.println("You need to eat breakfast before you go to work. What do you want to eat?");
+    System.out.println(" 1. Oatmeal \n 2. Bagel with Bacon \n 3. Avoccado Toast");
     int breakfastChoice = input.nextInt();
     // Option #2 - Have the user input a number between 1&3 to generate a valid input
     if (breakfastChoice == 1){
@@ -37,7 +38,8 @@ class Main {
     }
 
       
-    System.out.println("You are at work. What would you like to do? (1. Go to a meeting 2. Work on a presentation 3. Chat with a co-worker)");
+    System.out.println("You are at work. What would you like to do?");
+    System.out.println(" 1. Go to a meeting \n 2. Work on a presentation \n 3.Chat with a co-worker");
     // Option #3 - Have the user input a number between 1&3 to generate a valid output
     int workChoice = input.nextInt();
     if (workChoice == 1) {
