@@ -14,7 +14,8 @@ class Main {
     Scanner input = new Scanner(System.in);
     System.out.println("Welcome to Life Simulator");
     // Print title and offer first options
-    System.out.println("You wake up. What do you do? (1.Go to Shower, 2.Go to Work, 3.Go to Park)");
+    System.out.println("You wake up. What do you do?");
+    System.out.println(" 1. Take a shower \n 2.Go to work \n 3. Go for a walk");
     // Have user input a number between 1&3 in order to create a valid output
     int wakeupChoice = input.nextInt();
     if (wakeupChoice == 1) {
@@ -28,11 +29,11 @@ class Main {
       // Error Prep -> Tells user to input number between 1-3 in order to have a valid output
     }
     
-    System.out.println("You need to eat breakfast before you go to work. What do you want to eat?");
+    System.out.println("You need to eat breakfast before you go to work. What do you want to eat?(1.Oatmeal 2. Breakfas");
     int breakfastChoice = input.nextInt();
     // Option #2 - Have the user input a number between 1&3 to generate a valid input
     if (breakfastChoice == 1){
-      System.out.println("")
+      System.out.println("");
     }
 
       
