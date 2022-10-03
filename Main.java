@@ -1,4 +1,3 @@
-
 /**
 Jack Schumacher
 AP CS A
@@ -28,8 +27,17 @@ class Main {
       System.out.println("Input Error. Input a number between 1-3");
       // Error Prep -> Tells user to input number between 1-3 in order to have a valid output
     }
+    
+    System.out.println("You need to eat breakfast before you go to work. What do you want to eat?");
+    int breakfastChoice = input.nextInt();
+    // Option #2 - Have the user input a number between 1&3 to generate a valid input
+    if (breakfastChoice == 1){
+      System.out.println("")
+    }
+
+      
     System.out.println("You are at work. What would you like to do? (1. Go to a meeting 2. Work on a presentation 3. Chat with a co-worker)");
-    // Option #2 - Have the user input a number between 1&3 to generate a valid output
+    // Option #3 - Have the user input a number between 1&3 to generate a valid output
     int workChoice = input.nextInt();
     if (workChoice == 1) {
       System.out.println("You go to a meeting but it is really boring, so you fall asleep. You have a pleasant sleep and wake up ");
@@ -44,6 +52,7 @@ class Main {
       // In case the user does not enter a number between 1&3, the program will ask them to input a number between 1&3.
       System.out.println("Input Error. Input a number between 1-3");
     }
+    
   
   }
 }
