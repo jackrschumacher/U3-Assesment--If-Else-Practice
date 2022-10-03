@@ -1,7 +1,10 @@
-
 /**
 Jack Schumacher
-
+AP CS A
+Orange (5)
+Chapter 3- Boolean Expressions
+Programming Assignment 3
+September 2021
 
 */
 
