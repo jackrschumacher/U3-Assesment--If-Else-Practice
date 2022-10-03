@@ -30,7 +30,13 @@ class Main {
       // output
     }
     System.out.println("You are at work. What would you like to do? (1. Go to a meeting 2. Work on a presentation 3. Chat with a co-worker)");
-  int workChoice = input.nextInt();
+    int workChoice = input.nextInt();
+    if (workChoice == 1) {
+      System.out.println("You go to a meeting but it is really boring, so you fall asleep. You have a pleasant sleep and wake up ");
+    }
+    else if (workChoice == 2){
+      System.out.println("You work on a presentation and are successful in completing it.");
+    }
   
   }
 }
