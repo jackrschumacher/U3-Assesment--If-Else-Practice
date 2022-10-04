@@ -64,19 +64,20 @@ class Main {
       System.out.println("Input Error. Input a number between 1-3");
     }
     System.out.println("It is time to eat lunch. What do you wish to eat?");
-    System.out.println(" 1. Eat A snack from the vending machine \n 2. Eat a sandwhich from the work cafe \n Eat a snack in your desk.");
+    System.out.println(" 1. Eat A snack from the vending machine \n 2. Eat a sandwhich from the work cafe \n 3.Eat a snack in your desk.");
     int lunchChoice = input.nextInt();
-    if (workChoice ==1){
+    if (lunchChoice ==1){
       System.out.println("You eat a snack from the vending machine. It does not provide you with much more energy for the rest of the day.");
     }
-    else if (workChoice ==2){
+    else if (lunchChoice ==2){
       System.out.println("You eat a sandwhich from the work cafe. Your energy is repenlished for the rest of the day.");
     }
-    else if (workChoice == 3){
+    else if (lunchChoice == 3){
       System.out.println("You eat a healthy snack in your desk. This gives you plenty of energy for the rest of the day.");
     }
     else{
       System.out.println("Input Error. Input a number between 1-3");
+      // In case the user enters a number less than or greater than 0 to 3 the program will ask them to re-enter.
     }
   }
 }
