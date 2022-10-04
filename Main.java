@@ -22,7 +22,7 @@ class Main {
     if (wakeupChoice == 1) {
       System.out.println("You take a shower. Now you are ready for the day. You then go to work");
     } else if (wakeupChoice == 2) {
-      System.out.println("You go to work. Since you did not shower, you smell and are therfore fired from your job.");
+      System.out.println("You go to work. Since you did not shower, you smell.");
     } else if (wakeupChoice == 3) {
       System.out.println("You go for a walk and burn 1,000 calories. After your walk, you take a shower and go to work.");
     } else {
@@ -100,6 +100,12 @@ class Main {
     System.out.println("The workday is over, and so you have to drive home. What do you do?");
     System.out.println(" 1. Take the freeway home \n 2.Take the back roads in order to get home \n 3.Take a helicopter.");
     int driveHomeChoice = input.nextInt();
+    if (driveHomeChoice == 1){
+      System.out.println("You take the freeway home, but there is a lot of traffic so you are 5 hours late getting home.");
+    }
+    else if (driveHomeChoice == 2){
+      
+    }
       
   
   }
