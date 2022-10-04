@@ -37,13 +37,13 @@ class Main {
       System.out.println("You eat oatmeal. It tastes good.");
     }
     else if (breakfastChoice == 2){
-      System.out.println("You eat a bagel with bacon. It tastes great.")
+      System.out.println("You eat a bagel with bacon. It tastes great.");
     }
     else if (breakfastChoice ==3){
-      System.out.println("You eat avaccado toast. It tastes great and gives you plenty of energy for your busy day at work.")
+      System.out.println("You eat avaccado toast. It tastes great and gives you plenty of energy for your busy day at work.");
     }
     else{
-      System.out.println("Input Error. Please input a number between 1&3.")
+      System.out.println("Input Error. Please input a number between 1&3.");
     }
 
       
