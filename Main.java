@@ -64,6 +64,13 @@ class Main {
       System.out.println("Input Error. Input a number between 1-3");
     }
     System.out.println("It is time to eat lunch. What do you wish to eat?");
-  
+    System.out.println(" 1. Eat A snack from the vending machine \n 2. Eat a sandwhich from the work cafe \n Eat a snack in your desk.")
+    int lunchChoice = input.nextInt();
+    if (workChoice ==1){
+      System.out.println("You eat a snack from the vending machine");
+    }
+    else if (workChoice ==2){
+      System.out.println("")
+    }
   }
 }
