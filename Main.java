@@ -96,6 +96,9 @@ class Main {
       System.out.println(" 1. The town Park \n 2.A Natural Area near your home \n 3. A National Park");
       int parkChoice = input.nextInt():
       if (parkChoice == 1){
+        System.out.println("You have chosen to go to the town park.");
+        System.out.println("What do you want to do?");
+        System.out.println(" 1. Go on a easy difficulty trail \n 2. Go on a medium difficulty trail \n 3.");
         
       }
       else if (parkChoice == 2){
