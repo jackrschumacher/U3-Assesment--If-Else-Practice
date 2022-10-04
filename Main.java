@@ -46,7 +46,6 @@ class Main {
       System.out.println("Input Error. Please input a number between 1&3.");
     }
 
-      
     System.out.println("You are at work. What would you like to do?");
     System.out.println(" 1. Go to a meeting \n 2. Work on a presentation \n 3.Chat with a co-worker");
     // Option #3 - Have the user input a number between 1&3 to generate a valid output
@@ -64,7 +63,7 @@ class Main {
       // In case the user does not enter a number between 1&3, the program will ask them to input a number between 1&3.
       System.out.println("Input Error. Input a number between 1-3");
     }
-    
+    System.out.println("It is time to eat lunch. What do you wish to eat?");
   
   }
 }
