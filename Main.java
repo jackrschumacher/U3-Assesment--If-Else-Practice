@@ -23,12 +23,30 @@ class Main {
       System.out.println("You take a shower. Now you are ready for the day");
       System.out.println("What do you want to do today?");
       System.out.println(" 1. Sit around and play videogames \n 2. Go for a walk around town \n 3.Go to a new place today");
-      int dayChoice = input.nextInt():
+      int dayChoice = input.nextInt();
       if(dayChoice == 1){
         System.out.println("What video games do you want to play");
-        System.out.println(" 1. Mario Cart \n 2. Tetris \n 3. Runescape")
-          
+        System.out.println(" 1. Mario Cart \n 2. Tetris \n 3. Runescape");
+        int gameChoice = input.nextInt();
+        if (gameChoice == 1){
+          System.out.println("You play Mario cart and win the game.");
+        }
+        else if (gameChoice ==2){
+          System.out.println("You play Tetris and get 1,300.");
+        }
+        else if (gameChoice == 3){
+          System.out.println("You play Runescape (With Mr. Marzahl) and go fishing for 4 hours");
+        }}
+      else if (dayChoice ==2){
+        
       }
+      else if (dayChoice ==3){
+        
+      }
+      else{
+        
+      }
+
     }
     else if(wakeupChoice == 2){
       
