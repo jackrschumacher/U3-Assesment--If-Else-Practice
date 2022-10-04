@@ -79,5 +79,7 @@ class Main {
       System.out.println("Input Error. Input a number between 1-3");
       // In case the user enters a number less than or greater than 0 to 3 the program will ask them to re-enter.
     }
+    System.out.println("After lunch, you go back to work. What do you want to do?")
+    System.out.println(" 1. Talk to your boss about a new product that you are launching. \n 2. Talk to a coworker about a new porject you want to work on. \n 3. ")
   }
 }
