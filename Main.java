@@ -1,3 +1,4 @@
+
 /**
 Jack Schumacher
 AP CS A
@@ -62,15 +63,50 @@ class Main {
         
       }
       else if (dayChoice ==3){
+        System.out.println("You decide to go to a new place today. Where would you like to go?");
+        System.out.println(" 1.Canada \n 2.The United Kingdom \n 3.Switzerland");
+        int placeChoice = input.nextInt();
+
+        if (placeChoice == 1){
+          System.out.println("You travel to Canda. It is very cold there.");
+        }
+        else if (placeChoice == 2){
+          System.out.println("You travel to the UK. While you are there you drink tea.");
+        }
+        else if (placeChoice == 3){
+          System.out.println("You travel to Switzerland. While you are there, you buy a very expensive watch.");
+        }
+        else{
+          System.out.println("You entered an invalid input. Please enter a number between 1&3.");
+            // Tell user to restart and enter number between 1&3
+          
+        }
+        
         
       }
       else{
+        System.out.println("You entered an invalid input. Please enter a number between 1&3.");
+          // Tell user to restart and enter number between 1&3
         
       }
 
     }
     else if(wakeupChoice == 2){
-      
+      System.out.println("You decide to go for a walk. Where should you go for a walk?");
+      System.out.println(" 1. The town Park \n 2.A Natural Area near your home \n 3. A National Park");
+      int parkChoice = input.nextInt():
+      if (parkChoice == 1){
+        
+      }
+      else if (parkChoice == 2){
+        
+      }
+      else if (parkChoice == 3){
+        
+      }
+      else{
+        
+      }
     }
     else if(wakeupChoice == 3){
       
