@@ -1,4 +1,3 @@
-
 /**
 Jack Schumacher
 AP CS A
@@ -25,6 +24,7 @@ class Main {
       System.out.println(" 1. Sit around and play videogames \n 2. Go for a walk around town \n 3.Go to a new place today");
       int dayChoice = input.nextInt();
       if(dayChoice == 1){
+        // Choice for Day #1
         System.out.println("What video games do you want to play");
         System.out.println(" 1. Mario Cart \n 2. Tetris \n 3. Runescape");
         int gameChoice = input.nextInt();
@@ -35,9 +35,30 @@ class Main {
           System.out.println("You play Tetris and get 1,300.");
         }
         else if (gameChoice == 3){
-          System.out.println("You play Runescape (With Mr. Marzahl) and go fishing for 4 hours");
-        }}
+          System.out.println("You play Runescape (With Mr. Marzahl) and go fishing for 4 hours.");
+        }
+        else{
+          System.out.println("You entered an invalid input. Please enter a number between 1&3.");
+          // Tell user to restart and enter number between 1&3
+        }
+      }
       else if (dayChoice ==2){
+        System.out.println("You decide to go for a walk around your town. What do you do when you are in the town?");
+        System.out.println(" 1. Go eat Ice Cream at the town ice cream store \n 2. Go fishing in the town pond \n 3. Go get a burger from Culvers");
+        int townChoice = input.nextInt();
+        if (townChoice == 1){
+          System.out.println("You go to the town ice cream store and get a cup of mint chip ice cream. It tastes delicious.");
+        }
+        else if (townChoice == 2){
+          System.out.println("You go fishing in the town pond and catch a bass.");
+        }
+        else if (townChoice == 3){
+          System.out.println("You go to Culvers and get a double butterburger with bacon. It tastes delicious.");
+        }
+        else{
+          System.out.println("You entered an invalid input. Please enter a number between 1&3.");
+          // Tell user to restart and enter number between 1&3
+        }
         
       }
       else if (dayChoice ==3){
