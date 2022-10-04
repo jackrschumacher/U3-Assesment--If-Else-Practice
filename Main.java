@@ -1,3 +1,4 @@
+
 /**
 Jack Schumacher
 AP CS A
@@ -79,7 +80,23 @@ class Main {
       System.out.println("Input Error. Input a number between 1-3");
       // In case the user enters a number less than or greater than 0 to 3 the program will ask them to re-enter.
     }
+    
     System.out.println("After lunch, you go back to work. What do you want to do?")
-    System.out.println(" 1. Talk to your boss about a new product that you are launching. \n 2. Talk to a coworker about a new porject you want to work on. \n 3. ")
+    System.out.println(" 1. Talk to your boss about a new product that you are launching. \n 2. Talk to a coworker about a new porject you want to work on. \n 3. Take a nap at your desk.");
+    int workChoice2 = input.nextInt();
+    if (workChoice2 == 1){
+      System.out.println("You talk to your boss about a new project that you want to work on. She gives you control over it.");
+    }
+    else if (workChoice2 ==2){
+      System.out.println("You tlak to a co worker about a project that you are intrested in. She expresses her support of your project.");
+    }
+    else if (workChoice == 3){
+      System.out.println("You take a nap at your desk. Your boss catches you napping and fires you.");
+    }
+    else{
+      System.out.println("Input Error. Input a number between 1-3");
+      // Error message to prompt user to re-enter a number between 1-3 when the program is rerun.
+    }
+  System.out.println("")
   }
 }
