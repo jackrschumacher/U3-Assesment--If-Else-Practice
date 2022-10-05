@@ -46,6 +46,7 @@ class Main {
       else if (dayChoice ==2){
         System.out.println("You decide to go for a walk around your town. What do you do when you are in the town?");
         System.out.println(" 1. Go eat Ice Cream at the town ice cream store \n 2. Go fishing in the town pond \n 3. Go get a burger from Culvers");
+        // Users input selects an if statement that is true
         int townChoice = input.nextInt();
         if (townChoice == 1){
           System.out.println("You go to the town ice cream store and get a cup of mint chip ice cream. It tastes delicious.");
@@ -66,7 +67,7 @@ class Main {
         System.out.println("You decide to go to a new place today. Where would you like to go?");
         System.out.println(" 1.Canada \n 2.The United Kingdom \n 3.Switzerland");
         int placeChoice = input.nextInt();
-
+        // Users input selects an option that satisfies the if (input = 1, etc.)
         if (placeChoice == 1){
           System.out.println("You travel to Canda. It is very cold there.");
         }
@@ -94,9 +95,22 @@ class Main {
     else if(wakeupChoice == 2){
       System.out.println("You decide to go for a walk. Where should you go for a walk?");
       System.out.println(" 1. The town Park \n 2.A Natural Area near your home \n 3. A National Park");
-      int parkChoice = input.nextInt():
+      int parkChoice = input.nextInt();
       if (parkChoice == 1){
-        
+        System.out.println("You have chosen to go to the town park.");
+        System.out.println("What do you want to do?");
+        System.out.println(" 1. Go on a easy difficulty trail \n 2. Go on a medium difficulty trail \n 3.Go on a difficult Hike");   
+        int trailChoice = input.nextInt();
+        // Users input selects an option that satisfies the if (input = 1, etc.)
+        if (trailChoice ==1){
+          System.out.println("You go on an easy trail at the town park. There is not much intresting to see on the trail, and you wish that you would have picked a more difficult trail with something to see");
+        }
+        else if (trailChoice == 2){
+          System.out.println("You go on a medium difficult trail at the town park. This trail is more intresting that the easy trail and offers more exciting features and views. You return to the trailhead happy with your walk.");
+        }
+        else if (trailChoice == 3){
+          System.out.println("You go on a more difficult hike. It")
+        }
       }
       else if (parkChoice == 2){
         
