@@ -95,6 +95,7 @@ class Main {
       System.out.println("You decide to go for a park. Where should you go?");
       System.out.println(" 1. The town Park \n 2.A Natural Area near your home \n 3. A National Park");
       int parkChoice = input.nextInt();
+      
       if (parkChoice == 1){
         System.out.println("You have chosen to go to the town park.");
         System.out.println("What do you want to do?");
@@ -114,41 +115,45 @@ class Main {
         else{
           System.out.println("You entered an invalid input. Please enter a number between 1&3.");
           // Tell user to restart and enter number between 1&3
-        }
+        }}
       else if (parkChoice == 2){
         System.out.println("You decide to go to the Natural Area near your home. While you are there, you can:");
         System.out.println(" 1. Go Swimming in the lake \n 2. Go for a walk around the lake \n 3. Go for a kayak across the lake");
         // Users input selects an option that satisfies the if (input = 1, etc.)
         int naturalAreaChoice = input.nextInt();
+        
         if (naturalAreaChoice ==1 ){
           System.out.println("You go swimming in the lake. Since it is a warm day, it helps you cool off.");
         }
         else if(naturalAreaChoice == 2){
-          
+          System.out.println("You go for a 5 mile walk around the lake. You feel very accomplished.");
         }
+        else if(naturalAreaChoice == 3){
+          System.out.println("You kayak across the lake. You reach the other side and feel very accomplished.");
+        }
+        else{
+          System.out.println("You entered an invalid input. Please enter a number between 1&3.");
+          // Tell user to restart and enter number between 1&3
+        }}
         
-        
-      }
-
-
-        
-
-      }
-      else if (parkChoice == 2){
-        
-      }
       else if (parkChoice == 3){
+        System.out.println("You decide to go to a National Park. What do you do there?");
+        System.out.println(" 1. Go for a walk around the lake in the test \n 2. Go To the Visitor Center \n 3. Go on a tour of the park.");
+      }
+        
         
       }
-      else{
+
+
         
-      }
-    }
-    else if(wakeupChoice == 3){
+
       
-    }
-    else{
-      
-    }
+        
   }
+     
+        
+
+
+    
+
 }
