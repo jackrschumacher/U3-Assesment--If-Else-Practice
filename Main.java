@@ -138,9 +138,30 @@ class Main {
         
       else if (parkChoice == 3){
         System.out.println("You decide to go to a National Park. What do you do there?");
-        System.out.println(" 1. Go for a walk around the lake in the test \n 2. Go To the Visitor Center \n 3. Go on a tour of the park.");
-      }
+        System.out.println(" 1. Go for a walk around the lake at the park \n 2. Go To the Visitor Center \n 3. Go on a tour of the park.");
+        int nationalParkChoice = input.nextInt();
+        // Users input selects an option that satisfies the if (input = 1, etc.)
+        if (nationalParkChoice == 1){
+          System.out.println("You decide to go for a walk around the lake in the park. The walk offers great views of the park and you return to the trailhead happy.");
+        }
+        else if(nationalParkChoice == 2){
+          System.out.println("You decide to go to the vistor center of the park in order to learn more about it. You spend some time talking to a ranger and going through the displays.");
+        }
+        else if(nationalParkChoice == 3){
+          System.out.println("You go on a tour of the park with a ranger and see great views of the lake and the mountains.");
+        }
+        else{
+          System.out.println("You entered an invalid input. Please enter a number between 1&3.");
+          // Tell user to restart and enter number between 1&3
+        }
         
+      
+    }
+    else{
+        System.out.println("You entered an invalid input. Please enter a number between 1&3.");
+          // Tell user to restart and enter number between 1&3
+      
+      }
         
       }
 
