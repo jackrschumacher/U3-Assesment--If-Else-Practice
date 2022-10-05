@@ -99,18 +99,8 @@ class Main {
       if (parkChoice == 1){
         System.out.println("You have chosen to go to the town park.");
         System.out.println("What do you want to do?");
-        System.out.println(" 1. Go on a easy difficulty trail \n 2. Go on a medium difficulty trail \n 3.Go on a difficult Hike");   
-        int trailChoice = input.nextInt();
-        // Users input selects an option that satisfies the if (input = 1, etc.)
-        if (trailChoice ==1){
-          System.out.println("You go on an easy trail at the town park. There is not much intresting to see on the trail, and you wish that you would have picked a more difficult trail with something to see");
-        }
-        else if (trailChoice == 2){
-          System.out.println("You go on a medium difficult trail at the town park. This trail is more intresting that the easy trail and offers more exciting features and views. You return to the trailhead happy with your walk.");
-        }
-        else if (trailChoice == 3){
-          System.out.println("You go on a more difficult hike. It")
-        }
+        System.out.println(" 1. Go on a easy difficulty trail \n 2. Go on a medium difficulty trail \n 3.");
+        
       }
       else if (parkChoice == 2){
         
