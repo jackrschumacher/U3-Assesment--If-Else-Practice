@@ -1,4 +1,3 @@
-
 /**
 Jack Schumacher
 AP CS A
@@ -93,7 +92,7 @@ class Main {
 
     }
     else if(wakeupChoice == 2){
-      System.out.println("You decide to go for a walk. Where should you go for a walk?");
+      System.out.println("You decide to go for a park. Where should you go?");
       System.out.println(" 1. The town Park \n 2.A Natural Area near your home \n 3. A National Park");
       int parkChoice = input.nextInt();
       if (parkChoice == 1){
@@ -116,6 +115,20 @@ class Main {
           System.out.println("You entered an invalid input. Please enter a number between 1&3.");
           // Tell user to restart and enter number between 1&3
         }
+      else if (parkChoice == 2){
+        System.out.println("You decide to go to the Natural Area near your home. While you are there, you can:");
+        System.out.println(" 1. Go Swimming in the lake \n 2. Go for a walk around the lake \n 3. Go for a kayak across the lake");
+        // Users input selects an option that satisfies the if (input = 1, etc.)
+        int naturalAreaChoice = input.nextInt();
+        if (naturalAreaChoice ==1 ){
+          System.out.println("You go swimming in the lake. Since it is a warm day, it helps you cool off.");
+        }
+        else if(naturalAreaChoice == 2){
+          
+        }
+        
+        
+      }
 
 
         
