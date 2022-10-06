@@ -155,7 +155,12 @@ class Main {
           // Tell user to restart and enter number between 1&3
         }
         
-      
+    else if (wakeupChoice == 3){
+        System.out.println("You decide to go for a drive. Where would you like to go?");
+        System.out.println(" 1. Go to A fast food restruant in order to eat some Lunch");
+        int 
+        
+    }  
     }
     else{
         System.out.println("You entered an invalid input. Please enter a number between 1&3.");
