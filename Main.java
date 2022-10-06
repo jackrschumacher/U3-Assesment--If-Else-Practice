@@ -167,8 +167,22 @@ class Main {
           int fastFoodChoice = input.nextInt();
           // Users input selects an option that satisfies the if (input = 1, etc.)
           if (fastFoodChoice == 1){
-            System.out.println("")
+            System.out.println("You go to Culvers and eat a butterburger and a ice cream. It tastes great.");
           }
+          else if (fastFoodChoice == 2){
+            System.out.println("You go to McDonalds and eat a Happy Meal and a shake.");
+          }
+          else if (fastFoodChoice == 3){
+            System.out.println("You go to Quick trip and eat a hot dog and soda.");
+          }
+          else{
+            System.out.println("You entered an invalid input. Please enter a number between 1&3.");
+            // Tell user to restart and enter number between 1&3
+          }
+        else if (placeChoice == 2){
+          System.out.println("You decide to go to Old World Wisconsin. While you are there, you:");
+          System.out.println(" 1. Watch a rope- making demonstration \n 2.Watch a bread making demonstration \n 3. Watch a Blacksmithing demonstration")
+        }
         }
         
     }  
