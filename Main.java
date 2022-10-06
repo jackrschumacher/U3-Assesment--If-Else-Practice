@@ -201,15 +201,36 @@ class Main {
           }}
           
         else if (placeChoice == 3){
-          System.out.println("")
+          System.out.println("You go to elegant farmer. What do you do there?");
+          System.out.println(" 1.Pick Apples \n 2.Pick Pumpkins \n 3. Go Shopping");
+          int elegantFarmerChoice = input.nextInt();
+
+          if (elegantFarmerChoice ==  1){
+            System.out.println("You decide to pick apples at Elegant Farmer. You spend $10.");
+          }
+          else if (elegantFarmerChoice == 2){
+            System.out.println("You decide to pick Pumpkins at Elegant Farmer. You spend $15.");
+          }
+          else if (elegantFarmerChoice == 3){
+            System.out.println("You decide to go shopping at the Elegant Farmer store. You spend $50 on apple pies and pumpkin pies.");
+          }
+          else{
+            System.out.println("You entered an invalid input. Please enter a number between 1&3.");
+            // Tell user to restart and enter number between 1&3
+          }
           
         }
-        else{}
+        else{
+          System.out.println("You entered an invalid input. Please enter a number between 1&3.");
+            // Tell user to restart and enter number between 1&3
+        }
         }
            
     }
 
     else{
+      System.out.println("You entered an invalid input. Please enter a number between 1&3.");
+            // Tell user to restart and enter number between 1&3
       
     }
   
