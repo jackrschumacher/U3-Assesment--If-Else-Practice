@@ -7,6 +7,8 @@ Chapter 3 - Boolean Expressions
 Programming A
 
 */
+
+// Import scanner in order to use it later in the program
 import java.util.Scanner;
 
 class Main {
