@@ -178,7 +178,7 @@ class Main {
           else{
             System.out.println("You entered an invalid input. Please enter a number between 1&3.");
             // Tell user to restart and enter number between 1&3
-          }
+          }}
         else if (placeChoice == 2){
           System.out.println("You decide to go to Old World Wisconsin. While you are there, you:");
           System.out.println(" 1. Watch a rope- making demonstration \n 2.Watch a bread making demonstration \n 3. Watch a Blacksmithing demonstration");
@@ -188,16 +188,22 @@ class Main {
             System.out.println("You decide to watch a rope making demonstration. It is very intresting and you end up with some rope to show for it.");
           }
           else if (oldWorldWisconsinChoice == 2){
-            System.out.println("")
+            System.out.println("You decide to watch a bread making demonstration. It is very informative and you learn a lot about making bread.");
+          }
+          else if (oldWorldWisconsinChoice ==3){
+            System.out.println("You watch a blacksmithing demonstration. It is very informative and you learn a lot about blacksmithing during this time period.");
+          }
+          else{
+            System.out.println("You entered an invalid input. Please enter a number between 1&3.");
+            // Tell user to restart and enter number between 1&3
           }
         }
-        }
-        
-    }  
+        }   
     }
+    
     else{
         System.out.println("You entered an invalid input. Please enter a number between 1&3.");
-          // Tell user to restart and enter number between 1&3
+          // Tell user to restart and enter number between 1&3 - user entered invalid input
       
       }
         
