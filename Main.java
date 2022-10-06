@@ -1,3 +1,4 @@
+
 /**
 Jack Schumacher
 AP CS A
@@ -157,8 +158,11 @@ class Main {
         
     else if (wakeupChoice == 3){
         System.out.println("You decide to go for a drive. Where would you like to go?");
-        System.out.println(" 1. Go to A fast food restruant in order to eat some Lunch");
-        int 
+        System.out.println(" 1. Go to a fast food restruant in order to eat some Lunch \n 2. Go to Old world Wisconsin \3. Go to Elegant Farmer");
+        int placeChoice = input.nextInt();
+        if (placeChoice == 1){
+          System.out.println("You choose to go for a drive into town and go to a fast food place.")
+        }
         
     }  
     }
@@ -176,10 +180,5 @@ class Main {
       
         
   }
-     
-        
-
-
-    
 
 }
