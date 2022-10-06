@@ -87,18 +87,20 @@ class Main {
         }
 
       } 
-        
+        // Layer #2
       else {
         System.out.println("You entered an invalid input. Please enter a number between 1&3.");
         // Tell user to restart and enter number between 1&3
 
       }
 
-    } else if (wakeupChoice == 2) {
+    } 
+      // Layer #1
+    else if (wakeupChoice == 2) {
       System.out.println("You decide to go for a park. Where should you go?");
       System.out.println(" 1. The town Park \n 2.A Natural Area near your home \n 3. A National Park");
       int parkChoice = input.nextInt();
-
+      // Layer #2
       if (parkChoice == 1) {
         System.out.println("You have chosen to go to the town park.");
         System.out.println("What do you want to do?");
@@ -107,6 +109,7 @@ class Main {
             " 1. Go on a easy difficulty trail \n 2. Go on a medium difficulty trail \n 3.Go on a difficult Hike");
         int trailChoice = input.nextInt();
         // Users input selects an option that satisfies the if (input = 1, etc.)
+        // Layer #3
         if (trailChoice == 1) {
           System.out.println(
               "You go on an easy trail at the town park. There is not much intresting to see on the trail, and you wish that you would have picked a more difficult trail with something to see");
@@ -120,13 +123,15 @@ class Main {
           System.out.println("You entered an invalid input. Please enter a number between 1&3.");
           // Tell user to restart and enter number between 1&3
         }
-      } else if (parkChoice == 2) {
+      } 
+        // Layer #2
+      else if (parkChoice == 2) {
         System.out.println("You decide to go to the Natural Area near your home. While you are there, you can:");
         System.out.println(
             " 1. Go Swimming in the lake \n 2. Go for a walk around the lake \n 3. Go for a kayak across the lake");
         // Users input selects an option that satisfies the if (input = 1, etc.)
         int naturalAreaChoice = input.nextInt();
-
+        // Layer #3
         if (naturalAreaChoice == 1) {
           System.out.println("You go swimming in the lake. Since it is a warm day, it helps you cool off.");
         } else if (naturalAreaChoice == 2) {
@@ -138,13 +143,14 @@ class Main {
           // Tell user to restart and enter number between 1&3
         }
       }
-
+      // Layer #2
       else if (parkChoice == 3) {
         System.out.println("You decide to go to a National Park. What do you do there?");
         System.out.println(
             " 1. Go for a walk around the lake at the park \n 2. Go To the Visitor Center \n 3. Go on a tour of the park.");
         int nationalParkChoice = input.nextInt();
         // Users input selects an option that satisfies the if (input = 1, etc.)
+        // Layer #3
         if (nationalParkChoice == 1) {
           System.out.println(
               "You decide to go for a walk around the lake in the park. The walk offers great views of the park and you return to the trailhead happy.");
@@ -159,20 +165,21 @@ class Main {
           // Tell user to restart and enter number between 1&3
         }
       }
-
+      // Layer #1
       else if (wakeupChoice == 3) {
 
         System.out.println("You decide to go for a drive. Where would you like to go?");
         System.out.println(
             " 1. Go to a fast food restruant in order to eat some Lunch \n 2. Go to Old world Wisconsin \3. Go to Elegant Farmer");
         int placeChoice = input.nextInt();
-
+        // Layer #2
         if (placeChoice == 1) {
           System.out.println(
               "You choose to go for a drive into town and go to a fast food place. What fast food place would you like to go to?");
           System.out.println(" 1. Go to Culvers \n 2. Go to McDonalds \n 3. Go to Quick Trip");
           int fastFoodChoice = input.nextInt();
           // Users input selects an option that satisfies the if (input = 1, etc.)
+          // Layer #3
           if (fastFoodChoice == 1) {
             System.out.println("You go to Culvers and eat a butterburger and a ice cream. It tastes great.");
           } else if (fastFoodChoice == 2) {
