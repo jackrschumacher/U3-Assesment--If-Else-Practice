@@ -191,13 +191,13 @@ class Main {
             // Tell user to restart and enter number between 1&3
           }
         }
-
+        // Layer #2
         else if (placeChoice == 2) {
           System.out.println("You decide to go to Old World Wisconsin. While you are there, you:");
           System.out.println(
               " 1. Watch a rope- making demonstration \n 2.Watch a bread making demonstration \n 3. Watch a Blacksmithing demonstration");
           int oldWorldWisconsinChoice = input.nextInt();
-
+          // Layer #3
           if (oldWorldWisconsinChoice == 1) {
             System.out.println(
                 "You decide to watch a rope making demonstration. It is very intresting and you end up with some rope to show for it.");
@@ -212,12 +212,12 @@ class Main {
             // Tell user to restart and enter number between 1&3
           }
         }
-
+        // Layer #2
         else if (placeChoice == 3) {
           System.out.println("You go to elegant farmer. What do you do there?");
           System.out.println(" 1.Pick Apples \n 2.Pick Pumpkins \n 3. Go Shopping");
           int elegantFarmerChoice = input.nextInt();
-
+          // Layer #3
           if (elegantFarmerChoice == 1) {
             System.out.println("You decide to pick apples at Elegant Farmer. You spend $10.");
           } else if (elegantFarmerChoice == 2) {
@@ -229,7 +229,7 @@ class Main {
             System.out.println("You entered an invalid input. Please enter a number between 1&3.");
             // Tell user to restart and enter number between 1&3
           }
-
+        // Layer #2
         } else {
           System.out.println("You entered an invalid input. Please enter a number between 1&3.");
           // Tell user to restart and enter number between 1&3
@@ -237,7 +237,7 @@ class Main {
       }
 
     }
-
+    // Layer #1
     else {
       System.out.println("You entered an invalid input. Please enter a number between 1&3.");
       // Tell user to restart and enter number between 1&3
