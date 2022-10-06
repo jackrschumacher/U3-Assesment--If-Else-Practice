@@ -161,6 +161,7 @@ class Main {
         System.out.println("You decide to go for a drive. Where would you like to go?");
         System.out.println(" 1. Go to a fast food restruant in order to eat some Lunch \n 2. Go to Old world Wisconsin \3. Go to Elegant Farmer");
         int placeChoice = input.nextInt();
+      
         if (placeChoice == 1){
           System.out.println("You choose to go for a drive into town and go to a fast food place. What fast food place would you like to go to?");
           System.out.println(" 1. Go to Culvers \n 2. Go to McDonalds \n 3. Go to Quick Trip");
@@ -179,6 +180,7 @@ class Main {
             System.out.println("You entered an invalid input. Please enter a number between 1&3.");
             // Tell user to restart and enter number between 1&3
           }}
+          
         else if (placeChoice == 2){
           System.out.println("You decide to go to Old World Wisconsin. While you are there, you:");
           System.out.println(" 1. Watch a rope- making demonstration \n 2.Watch a bread making demonstration \n 3. Watch a Blacksmithing demonstration");
@@ -196,16 +198,21 @@ class Main {
           else{
             System.out.println("You entered an invalid input. Please enter a number between 1&3.");
             // Tell user to restart and enter number between 1&3
-          }
+          }}
+          
+        else if (placeChoice == 3){
+          System.out.println("")
+          
         }
-        }   
+        else{}
+        }
+           
     }
-    
+
     else{
-        System.out.println("You entered an invalid input. Please enter a number between 1&3.");
-          // Tell user to restart and enter number between 1&3 - user entered invalid input
       
-      }
+    }
+  
         
       
 
