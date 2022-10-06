@@ -181,7 +181,15 @@ class Main {
           }
         else if (placeChoice == 2){
           System.out.println("You decide to go to Old World Wisconsin. While you are there, you:");
-          System.out.println(" 1. Watch a rope- making demonstration \n 2.Watch a bread making demonstration \n 3. Watch a Blacksmithing demonstration")
+          System.out.println(" 1. Watch a rope- making demonstration \n 2.Watch a bread making demonstration \n 3. Watch a Blacksmithing demonstration");
+          int oldWorldWisconsinChoice = input.nextInt();
+
+          if (oldWorldWisconsinChoice == 1){
+            System.out.println("You decide to watch a rope making demonstration. It is very intresting and you end up with some rope to show for it.");
+          }
+          else if (oldWorldWisconsinChoice == 2){
+            System.out.println("")
+          }
         }
         }
         
