@@ -18,7 +18,7 @@ class Main {
     System.out.println("Welcome to Life Simulator");
     // Print title and offer first options
     System.out.println("You wake up. What do you do?");
-    System.out.println(" 1. Take a shower and get ready for your day. \n 2. Go for a walk \n 3. Go for a Drive");
+    System.out.println("1. Take a shower and get ready for your day. \n 2. Go for a walk \n 3. Go for a Drive");
     // Have user input a number between 1&3 in order to create a valid output
     int wakeupChoice = input.nextInt();
 
